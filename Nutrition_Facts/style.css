@@ -1,0 +1,154 @@
+body {
+  font-family: 'Helvetica', 'Helvetica Black';
+  width: 646px;
+  font-size: 28px;
+  padding: 15px;
+  padding-top: 8px;
+  border: 2px solid black;
+  margin: 8px;
+}
+
+header {
+  border-bottom: 30px solid black;
+  padding-bottom: 2px;
+}
+
+
+thead h2 {
+  border-bottom: 1px solid grey;
+  text-align: right;
+}
+
+tr {
+  border-top: 1px solid grey;
+}
+
+header, header *, main * {
+  margin: 2px 0;
+}
+
+header * {
+  margin: 0px;
+}
+
+
+/* Main Nutrition Facts label */
+header, header * {
+  margin: 2px 0;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 60px;
+}
+
+aside * {
+  font-size: 28px;
+  margin: 4px auto;
+  padding: 2px 0;
+}
+
+main  {
+  border-bottom: 15px solid black;
+  border-top: 15px solid black;
+}
+
+table {
+  table-layout: fixed;
+  width: 646px;
+  /* width: 100%; */
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+
+main table {
+  table-layout: fixed;
+}
+
+/* "% Daily Value*" header */
+thead * {
+  text-align: right;
+  border-top: none;
+  padding-top: 8px;
+}
+
+aside table {
+  margin-top: 0;
+}
+
+aside td:last-child {
+  text-align: right;
+}
+
+/* Percentage values */
+main > * td:last-child {
+  font-weight: bold;
+  text-align: right;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd, dt {
+  display: inline;
+
+}
+
+.subcategory {
+  width: 1px;
+}
+
+.indent {
+  width: 20px;
+}
+
+td.subcategory {
+  column-width: 15px;
+  border-top: 1px solid white;
+  white-space:nowrap;
+}
+.subcategory *{
+  font-weight: normal;
+  width: 15px;
+}
+
+/* table at the bottom of the nutrition facts*/
+footer table {
+  width: 100%;
+}
+
+footer * {
+  font-weight: normal;
+  font-size: 22px;
+  border: none;
+}
+
+footer th {
+  column-width: 50px;
+}
+
+footer > * {
+  text-align: left;
+}
+
+footer table tr:first-child {
+  border-bottom: 1px solid grey;
+}
+
+ul {
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 12px 0 0 0;
+  border-top: 1px solid grey;
+}
+
+li {
+  padding-left: 20px;
+  text-indent: -22px;
+  font-size: 25px;
+}
+
+li:before {
+  content: "*";
+}

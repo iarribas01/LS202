@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice 5</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      article {
+        border: 8px solid grey;
+        z-index: 1;
+        position: fixed;
+      }
+
+      aside {
+        padding: 20px 10px;
+        width: 400px;
+        height: 50px;
+        background-color:blanchedalmond;
+        position: fixed;
+        top: 20px;
+        right: 50%;
+        margin-right: -200px;
+        z-index: 3;
+      }
+
+      .transparent-block {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .6);
+        z-index: 2;
+        position: fixed;
+      }
+
+      .smaller_item {
+        background-color:pink;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        z-index: 3;
+      }
+
+    </style>
+  </head>
+  <body> 
+    
+    <aside>
+      <p>
+        I'm positioned!
+        <div class="smaller_item"></div>
+      </p>
+      
+    </aside>
+   
+    <article>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam interdum quam eu ipsum iaculis elementum. Integer euismod auctor finibus. Curabitur non pretium tellus, sit amet lobortis eros. In facilisis neque est, vitae sagittis metus semper ut. Etiam ut urna in leo bibendum tempus et id erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus sit amet rutrum est.</p>
+      <p>Aliquam quis condimentum dolor, sit amet ullamcorper leo. Donec viverra, mauris a efficitur ornare, urna arcu pharetra ligula, at iaculis ligula dui ac justo. Maecenas mattis consequat augue id condimentum. In arcu purus, mattis vel nibh a, mollis sollicitudin purus. Etiam tristique vestibulum felis, sit amet maximus lectus condimentum ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc vel euismod dui. Etiam a pulvinar diam, id iaculis lacus. Phasellus vestibulum ipsum egestas tempor fermentum. Sed id enim ipsum. Morbi quis mauris arcu. Donec vitae nibh in justo hendrerit condimentum et vitae massa.</p>
+      <p>Cras volutpat hendrerit quam, eu ultricies enim pulvinar vulputate. Sed nec mi augue. Suspendisse ultrices egestas lectus, sed interdum elit porttitor non. Maecenas non semper nulla. Vivamus aliquam dui eget nulla hendrerit porta. Maecenas malesuada lorem velit, non maximus purus gravida quis. Vivamus congue mauris eu libero molestie, nec sodales lorem bibendum. Duis nec massa laoreet, auctor arcu vel, venenatis justo. Mauris id vehicula nisl. Morbi feugiat porta tortor, eu accumsan justo pellentesque at. Proin sed ipsum et nisl molestie aliquam ut in mauris.</p>
+      <p>Curabitur sollicitudin consectetur ex, vitae ullamcorper erat tristique et. In hac habitasse platea dictumst. Duis facilisis blandit tincidunt. Pellentesque porttitor metus ac diam vulputate fringilla. Vestibulum facilisis, dui ornare bibendum pretium, mi nibh ullamcorper felis, id placerat dolor mauris vitae odio. Nunc accumsan nibh arcu, non elementum metus blandit sit amet. Aenean non volutpat arcu, at pharetra mi.</p>
+      <p>Phasellus ultricies in sapien in venenatis. Proin ac pretium augue, ac feugiat dui. In quis erat nulla. Phasellus ultrices nisi ac condimentum gravida. Nam eget sem at est imperdiet maximus. Praesent arcu sapien, aliquam sit amet sollicitudin commodo, posuere quis leo. Curabitur lobortis sapien nec justo ullamcorper mattis. Proin commodo pharetra justo, facilisis congue metus placerat et. Sed dignissim risus nec pharetra feugiat. Pellentesque id quam eu arcu sodales tempor. Maecenas porttitor vulputate blandit.</p>
+    </article>
+    
+    <div class="transparent-block"></div>
+
+    
+  </body>
+</html>
