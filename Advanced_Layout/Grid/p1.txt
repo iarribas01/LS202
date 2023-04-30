@@ -1,0 +1,6 @@
+* remove all margins
+* convert navigation bar to horizontal layout
+* create three column layout where aside and article sit side by side
+* create two column layout where aside-3 and the first
+  two paragraphs sit side by side
+* create two column layout where img and caption sit side by side

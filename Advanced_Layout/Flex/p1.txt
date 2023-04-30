@@ -1,0 +1,6 @@
+* get header to fill top without margins
+* make ul nav items sit side by side
+* make aside, article, aside sit sit by side without margins
+* make image and caption sit side by side and make them take 
+  up all of the window's width together. make the caption 1/3 
+  the size of the window's width, image is 2/3
