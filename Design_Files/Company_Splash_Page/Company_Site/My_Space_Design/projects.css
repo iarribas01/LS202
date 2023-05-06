@@ -1,0 +1,100 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+@font-face {
+  font-family: "Avenir";
+  src: 
+    url("./Assets/Font/AvenirLTStd-Roman.otf")
+    format("opentype");
+}
+
+body {
+  font-family: "Avenir", sans-serif;
+  color: #ffffff;
+  background-image: url("./Assets/bg_body.gif");
+  background-color: #2f2840;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  margin: 130px auto 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  padding: 0;
+}
+
+header ul {
+  margin: 130px auto 50px auto;
+}
+
+footer ul {
+  margin: 45px auto 70px auto;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #cacaca;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #6db9ff;
+  font-weight: bold;
+}
+
+main {
+  background-color: #ffffff;
+  color: #45494d;
+  padding: 120px 190px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2::before, h2::after {
+  content: "\2022";
+  margin: 0 30px;
+}
+
+h3 {
+  font-size: 26px;
+  color: #3e59b2;
+}
+
+p {
+  font-size: 24px;
+  margin: 0 0 80px 0;
+}
+
+footer {
+  background-color: #e7e7e7;
+  color: #b2b2b2;
+  padding: 80px 0;
+}
+
+footer p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+figure {
+  margin: 35px auto 60px auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+figure img {
+  width: 1000px;
+}

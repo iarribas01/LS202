@@ -65,6 +65,33 @@ li img {
   border: 3px solid white;
 }
 
+
+
+@media (min-width: 1280px) {
+  ul {
+    display: inline-block;
+    min-width: 330px;
+    width: 20%;
+    margin-left: 100px;
+  }
+  figure {
+    display: inline-block;
+    width: 950px;
+    
+    vertical-align: top;
+  }
+  main {
+    max-width: 100%;
+  }
+
+  li {
+    display: block;
+    width: 100%;
+  }
+}
+
+
+
 @media (max-width: 900px) {
   li {
     width: 33%;

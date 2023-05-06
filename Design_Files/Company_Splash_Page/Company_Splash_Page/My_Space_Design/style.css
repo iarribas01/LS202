@@ -1,0 +1,88 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+body, img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./Assets/bg_body.gif");
+  font-family: "Nunito", sans-serif;
+}
+
+header, main, footer {
+  width: 1000px;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  font: bolder 48px "Nunito" ;
+  margin: 25px auto 95px auto;
+  text-align: center;
+}
+
+
+img.logo {
+  display: block;
+  margin: 160px auto 25px auto;
+}
+
+main {
+  color: #45494d;
+  background-color: #ffffff;
+  margin: 95px auto 0 auto;
+  padding: 110px 100px 75px 100px;
+  box-sizing: border-box;
+}
+
+main :first-child {
+  margin-top: 0;
+}
+
+h2 {
+  font: bold 28px "Nunito";
+  text-align: center;
+}
+
+article {
+  margin: 100px 0 0 0;
+}
+
+h2::before, h2::after {
+  content: "\2022";
+  margin: 0 35px 0 35px;
+}
+
+h3 {
+  color: #3e98b2;
+  font: bold 23px "Nunito";
+  text-align: center;
+}
+
+p {
+  font: normal 17px "Nunito";
+  width: 815px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #e7e7e7;
+  margin: 0 auto 145px auto;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline-block;
+}
